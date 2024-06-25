@@ -1,0 +1,115 @@
+.careers{
+background-color: #262523;
+}
+.header-text{
+/* border: 2px solid red; */
+    display: inline-block;
+    width: 36%;
+    margin-left: 6%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+.career-h1-1{
+    /* border: 2px solid red; */
+    width: 100%;
+    font-size: 600%;
+    font-weight: 700;
+    color:pink ;
+    line-height: 0.9;
+}
+.header-image{
+    /* border: 2px solid red; */
+    width: 40%;
+}
+.header-image img{
+    width: 100%;
+}
+.careerheader{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.career-circle{
+    font-size: 80%;
+}
+.header-image-p{
+    /* border: 2px solid red; */
+    width:260px;
+    margin-top: 10px;
+    color:white;
+    display: inline-block;
+}
+
+.career-2{
+    /* border: 2px solid red; */
+    align-items: right;
+    background-color:#262523;
+    height: 800px;
+}
+.career-2-p{
+    /* border: 2px solid red; */
+    color: pink;
+    font-weight: 600;
+    width: 38%;
+    font-size: 200%;
+    float: right;
+    text-align: left;
+    margin-right: 10%;
+}
+
+.career-2 button{
+    border-radius: 20px;
+    display: block;
+    margin-top: 30px;
+    color: pink;
+    border-color: pink;
+    background-color: transparent;
+    font-size: 15px;
+    padding-right: 4%;
+
+    padding-left: 4%;
+
+
+}
+
+
+
+@media screen and (max-width:426px) {
+    
+
+.careerheader{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.header-text{
+    /* border: 2px solid red; */
+    width: 68%;
+    font-size: 0.5rem;
+    margin-left: 0px;
+}
+
+.header-image{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 10px;
+}
+.header-image img{
+    width: 100%;
+
+}
+
+.career-2{
+    /* border: 2px solid red; */
+    padding-left: 0px;
+}
+.career-2-p{
+    font-size: 1.5rem;
+    width: 90%;
+    margin-left: 0px;
+    float: left;
+}
+
+
+}

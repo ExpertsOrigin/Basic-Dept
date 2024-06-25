@@ -1,0 +1,428 @@
+
+
+.aboutheader{
+    /*  */
+    border-bottom: 2px solid pink;
+    /* margin-bottom: 20px; */
+    display: flex;
+    /* width: 90%; */
+    padding-left: 5%;
+    /* margin-left: 5%; */
+    background-color: #262523;
+}
+
+
+.aboutheader-2{
+    /*  */
+    width:90%;
+}
+
+.about-header-h1-1{
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: 700;
+    color: pink;
+    margin-top: 7%;
+    
+}
+.about-header-h1-2{
+    font-size: 6rem;
+    font-weight: 700;
+    color: pink;
+    margin-top: 35%;
+    width:75% ;
+    /*  */
+    line-height: 1;
+}
+
+.headerabout-p-1{
+    /*  */
+    width:80%;
+    font-size: 2rem;
+    font-weight: 700;
+    color: pink;
+    margin-left: 0px;
+}
+
+
+
+.about-images{
+    /*  */
+    display: flex;
+    /* margin-bottom: 300px; */
+    height: 1400px;
+    padding-top: 20px;
+    background-color: #262523;
+
+}
+.about-image-p{
+    /*  */
+    width: 180px;
+    font-size: 0.7rem;
+    height: 55px;
+    color: pink;
+    margin-top: 30%;
+    margin-left: 5%;
+}
+.about-images-1{
+    /*  */
+    overflow: hidden;
+    /* height: 1200px; */
+    display: flex;
+    position: relative;
+    /* overflow: hidden; */
+    width: 80%;
+    margin-left: 3%;
+    
+}
+.about-images-1 img{
+    width: 49%;
+    height: 70%;
+}
+
+.image-2{
+    margin-left: -37%;
+    margin-top: 20%;
+    z-index: 99;
+}
+.image-3{
+    margin-left: -38%;
+    margin-top: 10%;
+    z-index: 0;
+}
+.image-4{
+    margin-top: 40%;
+    margin-left: -28%;
+    z-index: 1;
+    /* transition: z-index 0.3s ease; */
+}
+.about-h1-3{
+    /* width: 90%; */
+    /* margin-left: 5%; */
+    font-size: 11rem;
+    padding-left: 5%;
+    font-weight: 800;
+    background-color: #262523;
+    color: pink;
+}
+
+.agency{
+    /*  */
+    display: flex;
+    color: pink;
+    background-color: #262523;
+    margin-top: -10px;
+}
+
+.agency-h1-1{
+    width: 15%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.agencycards{
+    /*  */
+    display: flex;
+    width: 50%;  
+    flex-wrap: wrap;
+    margin-top: 4%;
+    margin-left: 20%;
+}
+
+.agency-card-1{
+    /*  */
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 3%;
+    margin-bottom: 40px;   
+    float: right;
+}
+.cardnumber{
+    font-size: 4rem;
+}
+.card-p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.capabilities{
+    /*  */
+    border-top: 2px solid rgb(237, 172, 182);
+    border-bottom: 2px solid rgb(237, 172, 182);
+    display: flex;
+    color: pink;
+    background-color: #262523;
+    padding-top: 7%;
+}
+
+.capapara{
+    display: flex;
+    margin-left: 8%;
+}
+
+.para1{
+    /*  */
+     line-height: 2;
+    margin-left: 10%;
+    width: 40%;
+    }
+
+.capa-h1-1{
+    margin-left: 5%;
+    font-weight: 500;
+    
+}
+
+.awards{
+    background-color: #262523;
+    display: flex;
+    color: pink;
+    padding-left: 5%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+.awards-p-1{
+    font-size: 2rem;
+    /*  */
+    width: 30%;
+    margin-left:20% ;
+    font-weight: 500;
+}
+.awards-p-1 button{
+    display: block;
+    font-size: 0.7rem;
+    padding: 1% 7% 1% 7% ;
+    border-radius: 15px;
+    color: pink;
+    background-color: #262523;
+    border-color: pink;
+    margin-top: 5%;
+
+}
+
+.award-links{
+    background-color: #262523;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+
+}
+.links-h1{
+    font-size: 5rem;
+    display: block;
+    /*  */
+    width: 55%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: rgb(228, 186, 186);
+    font-weight: 700;
+    
+}
+
+.links-h1 sup{
+    font-size: 1.5rem;
+    vertical-align: super;
+}
+
+.leadership{
+    /*  */
+    background-color: #262523;
+    color: pink;
+    padding-top: 5%;
+    display: flex;
+    padding-bottom: 2.5%;
+}
+.leadership-h1{
+    font-size: 3rem;
+    margin-left: 5%;
+    /*  */
+    width: 20%;
+}
+
+.leadership-p-1{
+    /*  */
+    width: 45%;
+    margin-left: 10%;
+    font-size:2.5rem ;
+    line-height: 1.2;
+
+}
+
+.about-last-images img{
+    width: 22%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.about-last-images{
+    /*  */
+    border-top: 2px solid pink;
+    padding-left: 6.5%;
+    background-color: #262523;
+    padding-top: 3%;
+    padding-bottom: 10%;
+
+}
+
+
+
+@media screen and (max-width:426px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .aboutheader{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .about-header-h1-1{
+        
+        font-size: 2.2rem;
+        width: 50%;
+        margin:10px 0px 10px 0px ;
+    }
+
+    .about-header-h1-2{
+        font-size: 2.2rem  ;
+        margin:0px;
+        
+        width: 50%;
+    }
+    .header-p-1{
+        
+        width: 100%;
+        font-size: 2rem !important;
+        line-height: 1;
+        font-weight: 500;
+    }
+
+    .about-images{
+        
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 0px;
+
+    }
+
+    .about-image-p{
+        
+        margin-top: 30px;
+    }
+    .about-images-1{
+        
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .about-h1-3{
+        
+        font-size:4rem;
+        
+    }
+
+    .agency{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .agency-h1-1{
+        
+        width: 100%;
+        margin-left: 0px;
+    }
+    .agency-card-1{
+        
+        /* display: flex; */
+        width: 95%;
+    }
+
+    .agencycards{
+        
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .capabilities{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .para1{
+        
+        margin-left: 10px;
+        width: 100%;
+    }
+    .capapara{
+        
+        margin-left: 0px;
+    }
+    
+
+    .awards{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .awards-p-1{
+        
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .links-h1{
+        font-size: 2rem;
+        width: 100%;
+        
+    }
+
+    .links-h1 sup{
+        vertical-align: sub;
+    }
+
+    .leadership{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .leadership-h1{
+        
+        width:90%;
+        font-size: 2rem;
+    }
+    .leadership-p-1{
+        
+        width: 90%;
+        font-size: 1rem;
+        margin-left: 5%;
+    }
+
+    .about-last-images{
+        
+        width: 100%;
+        padding: 0px;
+    }
+    .about-last-images img{
+        width: 48%;
+        /*  */
+        
+
+    }
+
+    .headerabout-p-1{
+        width: 100%;
+        margin-top: 20px;
+        line-height: 1;
+    }
+
+
+
+
+}

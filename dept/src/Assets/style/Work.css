@@ -1,0 +1,155 @@
+
+
+.work-header-h1-1{
+    font-size: 5rem;
+    font-weight: 700;
+    width: 39%;
+    /* border: 2px solid red; */
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.work-cards{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 1.7%;
+    margin-bottom: 1.7%;
+}
+.work-card-text{
+    /* border: 2px solid red; */
+    width: 30%;
+    margin-left: 5%;
+    padding-top: 10%;
+}
+.work-images{
+    /* border: 2px solid red; */
+    border-left: 2px solid black;
+    
+    display: flex;
+    width: 80%;
+    margin-left: 6%;
+}
+.work-card-text-h1-1{
+    /* border: 2px solid red; */
+    font-size: 3rem;
+    letter-spacing: 0px;
+    /* margin-left: 5%; */
+}
+.work-p-1{
+    /* border: 2px solid red; */
+    font-size: 1.1rem;
+}
+.work-img-1{
+    /* border: 2px solid gray; */
+    width: 44%;
+    /* display: inline-block; */
+    /* padding: 0px; */
+    margin-left: 2%;
+    
+    
+}
+.work-img-1 img{
+    width: 100%;
+    
+}
+.work-card-text button{
+    border-radius: 20px;
+    padding:1.5% 8% 1.5% 8%;
+    font-size: 0.7rem;
+    font-weight: 700;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.img1-p-1{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin-left: 3%;
+}
+.img1-h1-1{
+    margin-left: 3%;
+}
+
+
+.mywork-links{
+    text-decoration: none;
+    margin-left: 5%;
+    color: black;
+}
+
+
+
+@media screen and (max-width:426px) {
+    
+    .work-header-h1-1{
+        font-size: 2.7rem;
+        /* border: 2px solid red; */
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .work-links{
+        /* border: 2px solid red; */
+        margin: 20px;
+    }
+
+    .work-card-text{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left: 0px;
+    }
+    .work-card-text-h1-1{
+        /* border: 2px solid red; */
+        width: 50%;
+        font-size: 1.3rem;
+
+    }
+    .work-cards{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-p-1{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .work-images{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img1-h1-1{
+        font-size: 1.2rem;
+    }
+
+    .img1-p-1{
+        font-size: 0.7rem;
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+    .work-img-1 img{
+width: 100%;
+    }
+    .work-img-1{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

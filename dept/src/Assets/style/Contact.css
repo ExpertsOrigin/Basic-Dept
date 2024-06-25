@@ -1,0 +1,150 @@
+.contact-header{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.contact-header-h1-1{
+    font-size: 6rem;
+    /* border: 2px solid red; */
+    width: 70%;
+    font-weight: 700;
+    margin-top: 17%;
+    margin-left: 3%;
+}
+.contact-header-p-1{
+    /* border: 2px solid red; */
+    font-size: 0.8rem;
+    width: 20%;
+    line-height: 1;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+.empty-circle{
+    /* border: 2px solid black; */
+    background-color: black;
+    border-radius: 70px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-top: 10%;
+    position: relative;
+    top: 3.5%;
+    margin-left: 3%;
+}
+.header-cards{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    width: 60%;
+    margin-left: 20%;
+    flex-wrap: wrap;
+}
+
+.cards-1{
+    /* border: 2px solid red; */
+    margin-left: 25px;
+    margin-bottom: 50px;
+    
+    
+}
+.join{
+    margin-left: 10.4%;
+}
+.contact-header-1{
+    /* border: 2px solid red; */
+    margin-left: 5%;
+}
+.contact-header-1 img{
+    width: 100%;
+}
+.cards-1 a{
+    /* text-decoration: none; */
+    color:black;
+}
+
+.offices{
+    margin-top: 7%;
+}
+.offices-h1-1{
+    position: relative;
+    top: 60px;
+    margin-left: 5%;
+}
+
+.contact-last{
+    /* border: 2px solid red; */
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.contact-last-h1-1{
+    font-size: 3rem;
+    display: inline-block;
+    width: 30%;
+    margin-left: 5%;
+
+}
+
+.contact-last ul {
+    list-style: none;
+    color: black;
+}
+.contact-last ul a{
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+
+
+@media screen and (max-width:426px) {
+
+    .contact-header{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact-header-h1-1{
+        /* border: 2px solid red; */
+        font-size: 2.5rem;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .contact-header-p-1{
+        /* border: 2px solid red; */
+        width: 50%;
+
+    }
+
+    .contact-header-2{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .cards-1{
+        /* border: 2px solid red; */
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+     
+    .contact-header-1{
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+
+    .contact-last{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-last-h1-1{
+        /* border: 2px solid red; */
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    
+}

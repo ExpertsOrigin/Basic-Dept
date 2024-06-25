@@ -1,0 +1,134 @@
+.thinking-header{
+    /* border: 2px solid red; */
+    background-color: #262523;
+    padding-top: 100px;
+}
+.thinking-header-p{
+    /* border: 2px solid red; */
+    /* display: flex; */
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 20px;
+    width: 50%;
+    color: pink;
+    margin-left: 3.5%;
+    
+}
+.thinkingcircle{
+    font-size: 60px;
+    color: pink;
+}
+.thinking-header-h1-1{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 86%;
+    margin-left: 5%;
+    font-size: 6rem;
+    font-weight: 700;
+    color: pink;
+    margin-bottom: 40px;
+}
+.header-p-1{
+
+    margin-left: 20px;
+
+    font-size: 1rem;
+}
+
+.header-p-2{
+    display: block;
+    height: 30px;
+    /* border: 2px solid red; */
+    padding-left: 20px;
+}
+
+.thinkingimages{
+    /* border: 2px solid red; */
+    padding-top: 25px;
+    border-top: 2px solid pink;
+
+}
+.thinkingimg-h1-1{
+    color: pink;
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.think-1 a{
+    text-decoration: none;
+}
+.thinkingimages img{
+    width: 30%;
+}
+.think-1{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thinkingimages-p{
+    color: pink;
+}
+
+.think-buttons{
+    /* border: 2px solid red; */
+    height: 60px;
+}
+.think-buttons a{
+    float: right;
+    margin-left: 20px;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    text-decoration: none;
+    color: pink;
+}
+
+
+
+
+@media screen and (max-width:426px) {
+    
+    
+
+    .thinking-header-h1-1{
+        /* border: 2px solid red; */
+        width: 100%;
+        font-size: 2.2rem;
+        margin-left: 0px;
+    }
+    .thinkingcircle{
+        display: none;
+    }
+
+    .thinking-header-p{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+    .thinkingheaderp{
+        /* border: 2px solid red; */
+        font-size: 0.5rem;
+        margin-left: 0px;
+    }
+
+
+    .think-1{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+}

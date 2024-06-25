@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigationbar{
+    /* border: 2px solid red; */
+    background-color: #252422;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.navigationbar-Link{
+   text-decoration: none; 
+   margin-left: 10%;
+   color: pink;
+   /* background-color: #252422; */
+
+   
+}
+.me-auto {
+    margin-left: 15%;
+}
+.bg-body-tertiary{
+    width: 90%;
+
+    margin-left: 5%;
+}
+
+
+#navi{
+    background-color:#252422 !important ;
+}
+#basic{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width:426px){
+    .navigationbar{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+.navbar-toggler{
+    background-color: pink !important;
+}
+    
+    .navbar-toggler-icon{
+        color: white !important;
+        /* background-color: white; */
+        /* border-radius: 10px; */
+
+    }
+}

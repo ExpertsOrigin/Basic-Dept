@@ -1,0 +1,191 @@
+.mainpage-header{
+    /* border: 2px solid red; */
+    /* margin-top: 5%; */
+    margin-bottom: 5%;    
+}
+video{
+    width: 100%;
+}
+
+.main-section2{
+    display: flex;
+}
+.section-2-1{
+    margin: 0px auto;
+    width: 14%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.main-section-3-p-1{
+    font-size: 2.5rem;
+    line-height: 1.2;  
+    width: 40%;
+    margin-left: 5%;
+    
+    font-weight: 500;
+    margin-top: 6%;
+    padding: 0px;
+}
+.main-section-3-h1-1{
+    font-size: 15rem;
+margin-top: 20px;
+    font-weight: 800;
+    margin-left: 15% ;
+}
+.main-section-3{
+    display: flex;
+}
+.main-section-3-p-1 button{
+    display: block;
+    font-size: 1rem;
+    padding: 0.2% 5% 0.3% 5%;
+    border-radius: 20px;
+    margin-top:6%;
+}
+
+.main-section-4{
+    /* border: 2px solid red; */
+    border-bottom: 2px solid black;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}
+.section-4-img{
+width: 32%;
+}
+.section-4-img img{
+    width: 100%;
+}
+.img-h3{
+    margin-top: 5%;
+}
+
+.img-p-1{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.engagement-h1-1{
+    /* border: 2px solid red; */
+    width: 30%;
+    margin-left: 5%;
+}
+.engage-companies{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.main-second-last{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.last-h1-1{
+    font-size: 7rem;
+    width: 100%;
+    line-height: 1;
+    font-weight: 700;
+}
+.main-last-h1-1{
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-left: 5%;
+}
+
+
+@media  screen and (max-width:426px) {
+    .main-section-3{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+.main-section-3-p-1{
+    font-size: 1.4rem;
+    /* border: 2px solid red; */
+    width: 75%;
+}
+.main-section-3-h1-1{
+    /* border: 2px solid red; */
+    font-size: 4.8rem;
+    width: 40%;
+    margin-left: 40%;
+}
+
+.main-section-4{
+    /* border: 2px solid red; */
+    margin-left: 0px;
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+.img-h3{
+    /* border: 2px solid red; */
+    font-size: 1rem;
+}
+.img-p-1{
+    font-size: 0.6rem;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.engagement{
+    /* border: 2px solid red; */
+    margin-bottom: 10%;
+}
+.engage-companies{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.company-1-h1-2{
+    display: none;
+}
+
+
+.last-h1-1{
+    font-size: 3rem;
+    /* border: 2px solid red; */
+    width: 180%;
+}
+.think-buttons a{
+    display: none;
+}
+#link-1{
+    display: inline;
+}
+
+.thinkingimages img{
+    width: 100%;
+}
+
+.thinkingimg-h1-1{
+    font-size: 1rem;
+    /* border: 2px solid red; */
+    width: 95%;
+    margin-top: 3%;
+}
+
+.section-2-1{
+margin-left: 5%;
+}
+
+
+.section-2-h1-1{
+    font-size: 1.3rem;
+    margin-left: 0px;
+}
+.section-2-p-1{
+    font-size: 0.7rem;
+    /* border: 2px solid red; */
+    width: 100px;
+}
+
+
+
+
+
+}

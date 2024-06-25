@@ -1,0 +1,28 @@
+.newscircle{
+    color: black;
+    float: right;
+    margin-top: 10px;
+    font-size: 70px;
+}
+.newsheader{
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.news-h1-1{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 5%;
+    font-size: 500%;
+    font-weight: 700;   
+}
+
+.newsh1-2{
+    color: black !important;
+    
+}
+
+.think-buttons a{
+color: black !important;
+}
